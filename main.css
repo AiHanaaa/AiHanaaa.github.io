@@ -1,0 +1,72 @@
+html,
+body,
+header,
+#intro-section {
+    height: 100%;
+}
+
+@media (max-width: 740px) {
+    html,
+    body,
+    header,
+    #intro-section {
+        height: 100vh;
+    }
+}
+
+.navbar {
+	background: #801E35 !important;
+}
+
+.nav-link,
+.navbar-brand {
+	color: #fff;
+	cursor: pointer;
+}
+
+.top-nav-collapse, .page-footer {
+    background-color: #801E35 !important;
+}
+
+@media (max-width: 991px) {
+    .navbar:not(.top-nav-collapse) {
+        background: #801E35 !important;
+    }
+}
+
+.header {
+	background-image: url('images/home.jpg');
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+
+.overlay {
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	left: 0;
+	top: 0;
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.description {
+	left: 50%;
+	position: absolute;
+	top: 45%;
+	transform: translate(-50%, -55%);
+	text-align: center;
+}
+
+.description h3, h4 {
+	color: #fff;
+}
+
+section.prevention {
+	display: block;
+	overflow: auto;
+}
+
+.card {
+	display: inline-block;
+}
