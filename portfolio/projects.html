@@ -1,0 +1,191 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>My Portfolio Website</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="main.css"/>
+	<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<!-- Start of navigation bar-->
+	<nav class="navbar navbar-expand-md">
+		<a class="navbar-brand" href="#"><i class='fas fa-user-tie' style='font-size:48px;color:white'></i></a>
+		<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="main-navigation">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="about.html">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="projects.html">Projects</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="contact.html">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<!--End of navigation bar-->
+
+	<!--Start of hero-->
+	<header class="page-header header container-fluid">
+		<div class="overlay"></div>
+		<div class="description">
+			<h1><font color="#0073EA">I'm Ai</font>da Far<font color="#0073EA">hana</font></h1>
+			<p>Student. Struggling. Help.</p>
+			<button class="btn btn-outline-secondary btn-lg" onclick="window.open('resume.pdf')">Download resume</button>
+		</div>
+	</header>
+	<!--End of hero-->
+	
+		<!--Main layout-->
+    <main>
+
+        <!--Section: pics-->
+        <section id="pics" class="py-5">
+            <!-- Container -->
+            <div class="container">
+                <!-- Section heading -->
+                <h2 class="h1-responsive font-weight-bold text-center mb-5">Skills showcase</h2>
+                <!-- Section description -->
+                <p class="lead grey-text text-center w-responsive mx-auto mb-5">Photography skills showcase</p>
+				
+				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				<!-- Indicators -->
+				<ol class="carousel-indicators">
+					<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+					<li data-target="#myCarousel" data-slide-to="1"></li>
+					<li data-target="#myCarousel" data-slide-to="2"></li>
+				</ol>
+
+				<!-- Wrapper for slides -->
+				<div class="carousel-inner">
+
+				<div class="item active">
+				<img src="images/canon1.jpg" alt="Los Angeles" style="width:100%;">
+				<div class="carousel-caption">
+				<h3>Manchester United Stadium</h3>
+				<p>Picture from trip to United Kingdom</p>
+				</div>
+				</div>
+
+				<div class="item">
+				<img src="images/canon2.jpg" alt="Chicago" style="width:100%;">
+				<div class="carousel-caption">
+				<h3>Manchester United Room</h3>
+				<p>They display Manchester United player's jerseys</p>
+				</div>
+				</div>
+    
+				<div class="item">
+				<img src="images/pic3.jpg" alt="New York" style="width:100%;">
+				<div class="carousel-caption">
+				<h3>My 3 best friends</h3>
+				<p>We've been together since high school days</p>
+				</div>
+				</div>
+  
+				</div>
+
+				<!-- Left and right controls -->
+				<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+				<span class="glyphicon glyphicon-chevron-left"></span>
+				<span class="sr-only">Previous</span>
+				</a>
+				<a class="right carousel-control" href="#myCarousel" data-slide="next">
+				<span class="glyphicon glyphicon-chevron-right"></span>
+				<span class="sr-only">Next</span>
+				</a>
+				</div>
+				
+                </div>
+                <!-- End of container -->
+
+        </section>
+        <!--End of section: pics-->
+
+        <!--Section: tables-->
+        <section id="stats" class="text-center py-5" style="background-color: #eee;">
+
+            <!-- Container -->
+            <div class="container">
+
+                <!-- Section heading -->
+                <h2 class="h1-responsive font-weight-bold mb-5">Source codes</h2>
+                <!-- Section description -->
+                <p class="grey-text w-responsive mx-auto mb-5">Coding for projects done</p>
+
+				<!--Table-->
+				<table id="statsTable" class="table table-bordered table-hover">
+				
+				<!--Table body-->
+				<tbody>
+				<tr>
+					<th colspan="2">C++</th>
+				</tr>
+				<tr>
+					<th><a href="" onclick="window.open('')">ShoppingCart.c++</a></th>
+					<td>Shopping cart example for C++</td>
+				</tr>
+				<tr>
+					<th colspan="2">Java</th>
+				</tr>
+				<tr>
+					<th><a href="" onclick="window.open('')">PhoneBook.zip</a></th>
+					<td>Source code for my PhoneBook project</td>
+				</tr>
+				</tbody>
+				</table>
+				<!--End of table-->
+				<p><small>*All the downloads are just empty placeholders</small></p>
+            </div>
+            <!-- End of container -->
+
+        </section>
+        <!--End of section: tables-->
+
+        <!--Section: vids-->
+        <section id="vids" class="text-center py-5">
+
+            <!-- Container -->
+            <div class="container">
+
+                <!-- Section heading -->
+                <h2 class="h1-responsive font-weight-bold mb-5">Video skill showcase</h2>
+
+				<!-- Video -->
+				<video width="854" height="480" controls>
+					<source src="Facebook.mp4" type="video/mp4">
+					<source src="Facebook.mp4" type="video/ogg">
+				<!-- End of video -->
+				</video>
+
+            </div>
+            <!-- End of container -->
+
+        </section>
+        <!-- End of section: vids -->
+
+    </main>
+    <!--End of main layout-->
+	
+	<footer class="page-footer">
+		<div class="footer-copyright text-center">2020 Portfolio for CS574</div>
+	</footer>
+
+<script src="jquery-3.3.1.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>
