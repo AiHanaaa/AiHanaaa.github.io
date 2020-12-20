@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>My Portfolio Website</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="main.css"/>
+<script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-md">
+		<a class="navbar-brand" href="#"><i class='fas fa-user-tie' style='font-size:48px;color:white'></i></a>
+		<button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#main-navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="main-navigation">
+			<ul class="navbar-nav">
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="about.html">About</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="projects.html">Projects</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="contact.html">Contact</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+
+	<header class="page-header header container-fluid">
+		<div class="overlay"></div>
+		<div class="description">
+			<h1><font color="#0073EA">I'm Ai</font>da Far<font color="#0073EA">hana</font></h1>
+			<p>Student. Struggling. Help.</p>
+			<button class="btn btn-outline-secondary btn-lg" onclick="window.open('resume.pdf')">Download resume</button>
+		</div>
+	</header>
+	<div class="container features">
+		<div class="row">
+		<header class="heading-group">
+			<h2>Timeline: Education Background</h2>
+			<p class="subtitle">
+			<ul>
+				<li>Sekolah Kebangsaan Bandar Tasik Selatan</li>
+				<li>Sekolah Rendah SRI Al-Amin Bangi</li>
+				<li>Sekolah Menengah SRI Al-Amin Bangi</li>
+				<li>UiTM Segamat</li>
+				<li>UiTM Shah Alam</li>
+			</ul>
+			</p>
+		</header>
+						
+			<!-- The Timeline -->
+<ul class="timeline">
+
+	<!-- Item 1 -->
+	<li>
+		<div class="direction-r">
+			<div class="flag-wrapper">
+				<span class="flag">UiTM Shah Alam</span>
+				<span class="time-wrapper"><span class="time">2020 - present</span></span>
+			</div>
+			<div class="desc">My current study place. Trying to survive CS246!</div>
+		</div>
+	</li>
+  
+	<!-- Item 2 -->
+	<li>
+		<div class="direction-l">
+			<div class="flag-wrapper">
+				<span class="flag">Freelancer</span>
+				<span class="time-wrapper"><span class="time"> 2019 - 2020</span></span>
+			</div>
+			<div class="desc">Working part time jobs everywhere</div>
+		</div>
+	</li>
+
+	<!-- Item 3 -->
+	<li>
+		<div class="direction-r">
+			<div class="flag-wrapper">
+				<span class="flag">UiTM Segamat</span>
+				<span class="time-wrapper"><span class="time">2014 - 2018</span></span>
+			</div>
+			<div class="desc">I stumbled a bit during CS110, but I survived!</div>
+		</div>
+	</li>
+  
+</ul>
+		</div> 
+	</div>
+	
+	<footer class="page-footer">
+		<div class="footer-copyright text-center">2020 Portfolio for CS574</div>
+	</footer>
+
+<script src="jquery-3.3.1.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script src="main.js"></script>
+</body>
+</html>
